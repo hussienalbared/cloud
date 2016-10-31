@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+jarsExcludedFromWebInfLib=D\:/New folder/FirstApp2/Librarys/java-json.jar|C\:/Users/hussienalbared/Downloads/Compressed/jaxrs-ri/ext/javax.annotation-api-1.2.jar|D\:/New folder/FirstApp2/Librarys/javamail-smtp-1.4.2.jar|D\:/New folder/FirstApp2/Librarys/javax.ws.rs-api-2.0-m10-sources.jar|D\:/New folder/FirstApp2/Librarys/javax.ws.rs.jar|D\:/New folder/FirstApp2/Librarys/jersey-bundle-1.6.jar|D\:/New folder/FirstApp2/Librarys/jersey-client.jar|D\:/New folder/FirstApp2/Librarys/jersey-multipart.jar|D\:/New folder/FirstApp2/Librarys/jersey-client-2.9.jar
+warSrcDir=war
+warSrcDirIsOutput=true
