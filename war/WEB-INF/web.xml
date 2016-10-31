@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>FirstApp2</servlet-name>
+		<servlet-class>com.exam.FirstApp2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FirstApp2</servlet-name>
+		<url-pattern>/firstapp2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>create</servlet-name>
+		<servlet-class>com.exam.create</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>create</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>com.exam.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>retrieve</servlet-name>
+		<servlet-class>com.exam.RetrieveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>retrieve</servlet-name>
+		<url-pattern>/retrieve</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>send</servlet-name>
+		<servlet-class>com.exam.EmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>send</servlet-name>
+		<url-pattern>/send</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>MailPage.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
