@@ -7,7 +7,7 @@
 <title>MailGun email</title>
 </head>
 <body>
-<form action="send" method="post" >
+<form action="sendgrid" method="post" >
 TO:<input type="text" name="t">
 <br>
 subject:<input type="text" name="subjec">

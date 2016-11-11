@@ -7,14 +7,15 @@
 <title>Entry Page</title>
 </head>
 <body>
-<form action="NewFile.jsp"">
+<form action="NewFile.jsp">
 <input type="submit" value="calculator">
-
-<form action="MainPage.jsp"">
+</form>
+<form action="MainPage.jsp">
 <input type="submit" value="storage">
-
-<form action="MailPage.jsp"">
+</form>
+<form action="MailPage.jsp">
 <input type="submit" value="mail">
+
 </form>
 </body>
 </html>

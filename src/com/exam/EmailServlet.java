@@ -28,8 +28,7 @@ public class EmailServlet extends HttpServlet{
 		String rec=req.getParameter("t");
 		String tex=req.getParameter("tex");
 		String subb=req.getParameter("subjec");
-		resp.getWriter().print(subb);
-		resp.getWriter().print("hussien");
+	
 	    Tr.sendSimpleMessage(rec, tex, subb);
 
 	

@@ -23,9 +23,10 @@ public class Tr {
 		    MultivaluedMapImpl formData = new MultivaluedMapImpl();
 		
 		    formData.add("from", "Mailgun User <hussienalbared@" + MAILGUN_DOMAIN_NAME + ">");
-		    formData.add("to", "yahyaalbared2016@gmail.com");
-		    formData.add("subject", "sss");
-		    formData.add("text","tttt");
+		    formData.add("to", recipient);
+		    formData.add("subject", subb);
+		    formData.add("text",tex);
+		    
 		    
 		    return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).
 		               post(ClientResponse.class, formData);

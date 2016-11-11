@@ -7,7 +7,7 @@
 <title>Create entity</title>
 </head>
 <body>
-<form action="retrieve">
+<form action="retrieve" method="post">
 
 kind:<input type="text" name="kind">
 <br>

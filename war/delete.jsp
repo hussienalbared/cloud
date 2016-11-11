@@ -7,7 +7,7 @@
 <title>Create entity</title>
 </head>
 <body>
-<form action="delete">
+<form action="delete" method="post">
 
 kind:<input type="text" name="kind">
 <br>

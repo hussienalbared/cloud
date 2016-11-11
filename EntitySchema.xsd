@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/EntitySchema" xmlns:tns="http://www.example.org/EntitySchema" elementFormDefault="qualified">
+
+
+
+
+
+
+
+
+
+    <complexType name="Properties">
+    	<sequence>
+    		<element name="proname" type="string"></element>
+    		<element name="provalue" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="Entity">
+    	<sequence>
+    		<element name="key" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="kind" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="properties" type="tns:Properties" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="entity" type="tns:Entity"></element>
+</schema>
